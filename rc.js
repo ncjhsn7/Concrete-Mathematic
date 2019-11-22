@@ -31,7 +31,7 @@ const q1B = (vet, n, valor) => {
 // Método que realiza (imprime) o movimento
 // de um disco entre dois pinos
 function mover(o, d) {
-    System.out.println(o + " -> " + d);
+    console.log(o + " -> " + d);
 }
 
 // Método que implementa a recursão
@@ -77,9 +77,7 @@ const q4 = (a, b, x) => {
 }
 
 function raizQuadrada(x) {
-
     return raizQuadrada(0.0, x, x);
-
 }
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const q5 = (n, v) => {
